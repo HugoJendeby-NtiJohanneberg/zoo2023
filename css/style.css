@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+}
+
+#container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+
+    grid-template-areas: 
+    "hd"
+    "sc";
+}
+
+header {
+    grid-area: hd;
+    display: flex;
+    background-color: coral;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin: 5px;
+    font-size: 100px;
+}
+
+.section{
+    grid-area: sc;
+    display: flex;
+    background-color: coral;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.section #menu{
+    background-color: blue;
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.section #about_us{
+    background-color: red;
+    width: 700px;
+    height: 700px;
+    padding: 20px;
+    margin:  20px;
+}
+
+.section #animals{
+    background-color: blue;
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+#container1 {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+
+    grid-template-areas: 
+    "hd1"
+    "sc1";
+}
+
+.hd1 {
+    grid-area: hd1;
+    display: flex;
+    background-color: coral;
+    justify-content: center;
+    align-items: center;
+}
+
+.sc1 {
+    grid-area: sc1;
+    display: flex;
+    background-color: coral;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
