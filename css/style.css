@@ -26,6 +26,12 @@ h1{
     font-size: 100px;
 }
 
+h2{
+    margin: 5px;
+    font-size: 50px;
+
+}
+
 .section{
     grid-area: sc;
     display: flex;
@@ -35,27 +41,52 @@ h1{
 }
 
 .section #menu{
-    background-color: blue;
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 400px;
     height: 600px;
     padding: 20px;
     margin: 20px;
+    border-radius: 100px 10px 10px 100px;
 }
 
 .section #about_us{
-    background-color: red;
+    background-color: moccasin;
     width: 700px;
     height: 700px;
     padding: 20px;
     margin:  20px;
+    border-radius: 30px;
 }
 
 .section #animals{
-    background-color: blue;
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 400px;
     height: 600px;
     padding: 20px;
     margin: 20px;
+    border-radius: 10px 100px 100px 10px;
+}
+
+.vargbild{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 100px 100px 10px;
+}
+
+.vargbild1{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 100px 10px 10px 100px;
 }
 
 
