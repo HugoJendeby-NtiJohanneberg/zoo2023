@@ -250,42 +250,6 @@ p{
   height: 200px;
 }
 
-header {
-  background-color: black;
-  
-  padding: 20px;
-  text-align: center;
-}
-
-header h1 {
-  color: white;
-  font-size: 36px;
-  margin: 0;
-}
-
-header nav {
-  display: inline-block;
-}
-
-header nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-header nav ul li {
-  margin: 0 10px;
-}
-
-header nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-header nav ul li a:hover {
-  color: white;
-}
 
 
 /* footer for menu */
@@ -329,7 +293,6 @@ footer {
   position: relative;
   height: auto;
   bottom: 0;
-  width: 100%;
   background-color: black;
   color: white;
   padding: 20px;
