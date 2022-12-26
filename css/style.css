@@ -326,7 +326,7 @@ footer ul li a:hover {
 }
 
 footer {
-  position: bottom;
+  position: relative;
   height: auto;
   bottom: 0;
   width: 1fr;
